@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-rgb: 240, 248, 255; /* Light Alice Blue */
+  --foreground-rgb: 34, 34, 34;    /* Dark Charcoal */
+}
+
+body {
+  background: rgb(var(--background-rgb));
+  color: rgb(var(--foreground-rgb));
+  height: 100vh;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+}
